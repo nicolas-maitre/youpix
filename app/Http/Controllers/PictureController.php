@@ -1,7 +1,7 @@
 <?php
-
 namespace App\Http\Controllers;
-
+use Str;
+use Storage;
 use App\Picture;
 use Illuminate\Http\Request;
 use App\Http\Requests\PictureStoreRequest;
@@ -15,7 +15,8 @@ class PictureController extends Controller
      */
     public function index()
     {
-        //
+        $pictures = Picture::all();
+        return view("pictures.index")->with(["pictures"=>$pictures]);
     }
 
     /**
@@ -37,7 +38,11 @@ class PictureController extends Controller
      */
     public function store(PictureStoreRequest $request)
     {
-        echo "help";
+        $picture = new Picture();
+        $picture->fill($request->all());
+        $picture->storage_path=$request->picture->store('pictures');
+        $picture->save();
+        return view("pictures.show")->with(compact('picture'));
     }
 
     /**
@@ -46,9 +51,12 @@ class PictureController extends Controller
      * @param  \App\Picture  $picture
      * @return \Illuminate\Http\Response
      */
-    public function show(Picture $picture)
+    public function show(Request $request, Picture $picture)
     {
-        //
+        if(Str::startsWith ($request->header("Accept"), "image")){
+            return Storage::get($picture->storage_path);
+        }
+        return view("pictures.show")->with(compact('picture'));
     }
 
     /**
