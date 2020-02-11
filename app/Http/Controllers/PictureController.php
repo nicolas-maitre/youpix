@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Picture;
 use Illuminate\Http\Request;
+use App\Http\Requests\PictureStoreRequest;
 
 class PictureController extends Controller
 {
@@ -25,6 +26,7 @@ class PictureController extends Controller
     public function create()
     {
         //
+        return view("pictures.create");
     }
 
     /**
@@ -33,9 +35,9 @@ class PictureController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(PictureStoreRequest $request)
     {
-        //
+        echo "help";
     }
 
     /**
