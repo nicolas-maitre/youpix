@@ -1,3 +1,4 @@
+<a href="{{route('pictures.index')}}">retour</a>
 <h1>Créer :)</h1>
 <form action="{{route('pictures.store')}}" method="post" enctype="multipart/form-data">
     @csrf

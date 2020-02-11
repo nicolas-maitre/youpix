@@ -40,7 +40,7 @@ class PictureController extends Controller
     {
         $picture = new Picture();
         $picture->fill($request->all());
-        $picture->storage_path=$request->picture->store('pictures');
+        $picture->storage_path=$request->picture->store('pictures', 's3');
         $picture->save();
         return redirect()->route("pictures.show", compact('picture'));
     }
@@ -54,7 +54,7 @@ class PictureController extends Controller
     public function show(Request $request, Picture $picture)
     {
         if(Str::startsWith ($request->header("Accept"), "image")){
-            return Storage::get($picture->storage_path);
+            return redirect(Storage::disk('s3')->temporaryUrl($picture->storage_path, time() + 60));
         }
         return view("pictures.show")->with(compact('picture'));
     }
@@ -90,6 +90,8 @@ class PictureController extends Controller
      */
     public function destroy(Picture $picture)
     {
-        //
+        Storage::disk('s3')->delete($picture->storage_path);
+        $picture->delete();
+        return redirect()->route('pictures.index');
     }
 }
