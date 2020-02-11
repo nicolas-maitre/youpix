@@ -1,9 +1,9 @@
 <h1>Créer :)</h1>
 <form action="{{route('pictures.store')}}" method="post" enctype="multipart/form-data">
     @csrf
-    <input type="text" name="title"/>
+    <input type="text" name="title" required/>
     {{$errors->first('title')}}<br/>
-    <input type="file" name="picture"/>
+    <input type="file" name="picture" required/>
     {{$errors->first('picture')}}<br/>
     <button type="submit">Envoyer</button>
 </form>

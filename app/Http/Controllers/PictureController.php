@@ -42,7 +42,7 @@ class PictureController extends Controller
         $picture->fill($request->all());
         $picture->storage_path=$request->picture->store('pictures');
         $picture->save();
-        return view("pictures.show")->with(compact('picture'));
+        return redirect()->route("pictures.show", compact('picture'));
     }
 
     /**
