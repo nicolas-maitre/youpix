@@ -7,7 +7,7 @@ use Storage;
 use App\Picture;
 use Illuminate\Http\Request;
 use App\Http\Requests\PictureStoreRequest;
-use Aws\S3\S3Client;
+use App\Services\S3Connector;
 use Aws\S3\PostObjectV4;
 class PictureController extends Controller
 {
@@ -29,11 +29,7 @@ class PictureController extends Controller
      */
     public function create()
     {
-        $client = new S3Client([
-            'version' => 'latest',
-            'region' => env('AWS_DEFAULT_REGION'),
-            'credentials' => ['key'    => env('AWS_ACCESS_KEY_ID'), 'secret' => env('AWS_SECRET_ACCESS_KEY'),],
-        ]);
+        $client = S3Connector::getClient();
 
         $bucket = env('AWS_BUCKET');
 
