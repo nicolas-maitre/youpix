@@ -12,6 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route("pictures.index");
 });
 Route::resource("pictures", "PictureController");
