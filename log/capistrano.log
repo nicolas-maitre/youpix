@@ -1,0 +1,445 @@
+# Logfile created on 2020-03-10 10:59:04 +0100 by logger.rb/66358
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 10:59:04 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e0171f9a] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [e0171f9a] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 11:00:52 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [6d847673] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [6d847673] Command: /usr/bin/env mkdir -p /tmp
+  INFO [6d847673] Finished in 1.082 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_app_name-production-diogo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_app_name-production-diogo.sh 100.0%
+  INFO [91c26feb] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-diogo.sh as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [91c26feb] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_app_name-production-diogo.sh
+  INFO [91c26feb] Finished in 0.272 seconds with exit status 0 (successful).
+  INFO [7f911fea] Running /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [7f911fea] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_app_name-production-diogo.sh" ; /usr/bin/env git ls-remote git@example.com:me/my_repo.git HEAD )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 11:04:59 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [677d2893] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [677d2893] Command: /usr/bin/env mkdir -p /tmp
+  INFO [677d2893] Finished in 0.262 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-youpux-production-diogo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-youpux-production-diogo.sh 100.0%
+  INFO [1a157c67] Running /usr/bin/env chmod 700 /tmp/git-ssh-youpux-production-diogo.sh as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [1a157c67] Command: /usr/bin/env chmod 700 /tmp/git-ssh-youpux-production-diogo.sh
+  INFO [1a157c67] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [db8d3170] Running /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [db8d3170] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpux-production-diogo.sh" ; /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD )
+ DEBUG [db8d3170] 	Warning: Permanently added 'github.com,140.82.118.4' (RSA) to the list of known hosts.
+ DEBUG [db8d3170] 	git@github.com: Permission denied (publickey).
+ DEBUG [db8d3170] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 11:15:58 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b4eefa4a] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [b4eefa4a] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b4eefa4a] Finished in 0.515 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-github_deploy-production-diogo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-github_deploy-production-diogo.sh 100.0%
+  INFO [e3212783] Running /usr/bin/env chmod 700 /tmp/git-ssh-github_deploy-production-diogo.sh as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [e3212783] Command: /usr/bin/env chmod 700 /tmp/git-ssh-github_deploy-production-diogo.sh
+  INFO [e3212783] Finished in 0.184 seconds with exit status 0 (successful).
+  INFO [13f1f0f7] Running /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [13f1f0f7] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-github_deploy-production-diogo.sh" ; /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD )
+ DEBUG [13f1f0f7] 	git@github.com: Permission denied (publickey).
+ DEBUG [13f1f0f7] 	fatal: The remote end hung up unexpectedly
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 11:25:52 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [961a436c] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [961a436c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [961a436c] Finished in 0.241 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-youpix-production-diogo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-youpix-production-diogo.sh 100.0%
+  INFO [73728358] Running /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [73728358] Command: /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh
+  INFO [73728358] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [cf3652d9] Running /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [cf3652d9] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD )
+ DEBUG [cf3652d9] 	77bd920d33f44ead7e45d266261eceb6de61275f	HEAD
+  INFO [cf3652d9] Finished in 1.429 seconds with exit status 0 (successful).
+  INFO [060d56e5] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [060d56e5] Command: /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases
+  INFO [060d56e5] Finished in 0.021 seconds with exit status 0 (successful).
+ DEBUG [f1f152a3] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [f1f152a3] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ]
+ DEBUG [f1f152a3] Finished in 0.067 seconds with exit status 1 (failed).
+ DEBUG [934e9d2d] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [934e9d2d] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ]
+ DEBUG [934e9d2d] Finished in 0.061 seconds with exit status 1 (failed).
+ DEBUG [d6ad57e0] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [d6ad57e0] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch'" 1>&2; false; fi
+ DEBUG [d6ad57e0] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [05ac8f1d] Running /usr/bin/env git clone --mirror git@github.com:nicolas-maitre/youpix.git /home/cld2_1/cld2-1.mycpnv.ch/repo as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [05ac8f1d] Command: cd /home/cld2_1/cld2-1.mycpnv.ch && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git clone --mirror git@github.com:nicolas-maitre/youpix.git /home/cld2_1/cld2-1.mycpnv.ch/repo )
+ DEBUG [05ac8f1d] 	warning: templates not found /usr/share/git-core/templates
+ DEBUG [05ac8f1d] 	Initialized empty Git repository in /home/cld2_1/cld2-1.mycpnv.ch/repo/
+  INFO [05ac8f1d] Finished in 1.757 seconds with exit status 0 (successful).
+ DEBUG [ccf92124] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [ccf92124] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [ccf92124] Finished in 0.054 seconds with exit status 0 (successful).
+  INFO [89582b19] Running /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [89582b19] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git )
+  INFO [89582b19] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [d17c2142] Running /usr/bin/env git remote update --prune as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [d17c2142] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [d17c2142] 	Fetching origin
+  INFO [d17c2142] Finished in 1.436 seconds with exit status 0 (successful).
+ DEBUG [b80c7e4d] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [b80c7e4d] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [b80c7e4d] Finished in 0.091 seconds with exit status 0 (successful).
+  INFO [c37ed42a] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310102600 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [c37ed42a] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310102600 )
+  INFO [c37ed42a] Finished in 0.122 seconds with exit status 0 (successful).
+  INFO [394958b3] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310102600 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [394958b3] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310102600 )
+ DEBUG [394958b3] 	fatal: Not a valid object name
+ DEBUG [394958b3] 	tar: This does not look like a tar archive
+tar: Exiting with failure status due to previous errors
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 11:39:43 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [db4b15e6] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [db4b15e6] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 11:42:21 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [49eb81eb] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [49eb81eb] Command: /usr/bin/env mkdir -p /tmp
+  INFO [49eb81eb] Finished in 0.327 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-youpix-production-diogo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-youpix-production-diogo.sh 100.0%
+  INFO [61530623] Running /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [61530623] Command: /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh
+  INFO [61530623] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [1972e74b] Running /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [1972e74b] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD )
+ DEBUG [1972e74b] 	77bd920d33f44ead7e45d266261eceb6de61275f	HEAD
+  INFO [1972e74b] Finished in 1.213 seconds with exit status 0 (successful).
+  INFO [15b3ccdd] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [15b3ccdd] Command: /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases
+  INFO [15b3ccdd] Finished in 0.019 seconds with exit status 0 (successful).
+ DEBUG [d341edde] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [d341edde] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ]
+ DEBUG [d341edde] Finished in 0.059 seconds with exit status 1 (failed).
+ DEBUG [aaee9e17] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [aaee9e17] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ]
+ DEBUG [aaee9e17] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/cld2_1/cld2-1.mycpnv.ch/repo
+ DEBUG [1ac623e0] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [1ac623e0] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [1ac623e0] Finished in 0.018 seconds with exit status 0 (successful).
+  INFO [dc04b897] Running /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [dc04b897] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git )
+  INFO [dc04b897] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO [e948370d] Running /usr/bin/env git remote update --prune as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [e948370d] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e948370d] 	Fetching origin
+  INFO [e948370d] Finished in 1.227 seconds with exit status 0 (successful).
+ DEBUG [c24f8840] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [c24f8840] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [c24f8840] Finished in 0.019 seconds with exit status 0 (successful).
+  INFO [f444de9d] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104228 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [f444de9d] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104228 )
+  INFO [f444de9d] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [43242ed1] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104228 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [43242ed1] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104228 )
+ DEBUG [43242ed1] 	fatal: Not a valid object name
+ DEBUG [43242ed1] 	tar: This does not look like a tar archive
+tar: Exiting with failure status due to previous errors
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 11:45:17 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [954f8698] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [954f8698] Command: /usr/bin/env mkdir -p /tmp
+  INFO [954f8698] Finished in 0.213 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-youpix-production-diogo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-youpix-production-diogo.sh 100.0%
+  INFO [4080a631] Running /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [4080a631] Command: /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh
+  INFO [4080a631] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [bfdc62be] Running /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [bfdc62be] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD )
+ DEBUG [bfdc62be] 	77bd920d33f44ead7e45d266261eceb6de61275f	HEAD
+  INFO [bfdc62be] Finished in 1.148 seconds with exit status 0 (successful).
+  INFO [230a65fb] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [230a65fb] Command: /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases
+  INFO [230a65fb] Finished in 0.043 seconds with exit status 0 (successful).
+ DEBUG [e7583366] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [e7583366] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ]
+ DEBUG [e7583366] Finished in 0.087 seconds with exit status 1 (failed).
+ DEBUG [9b07539b] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [9b07539b] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ]
+ DEBUG [9b07539b] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/cld2_1/cld2-1.mycpnv.ch/repo
+ DEBUG [4490077e] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [4490077e] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [4490077e] Finished in 0.020 seconds with exit status 0 (successful).
+  INFO [2007b6f6] Running /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [2007b6f6] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git )
+  INFO [2007b6f6] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [5b501e8f] Running /usr/bin/env git remote update --prune as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [5b501e8f] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [5b501e8f] 	Fetching origin
+  INFO [5b501e8f] Finished in 1.217 seconds with exit status 0 (successful).
+ DEBUG [61658a9a] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [61658a9a] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [61658a9a] Finished in 0.019 seconds with exit status 0 (successful).
+  INFO [b468ae3f] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104524 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [b468ae3f] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104524 )
+  INFO [b468ae3f] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [4bc6d4a2] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104524 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [4bc6d4a2] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104524 )
+ DEBUG [4bc6d4a2] 	fatal: Not a valid object name
+ DEBUG [4bc6d4a2] 	tar: This does not look like a tar archive
+tar: Exiting with failure status due to previous errors
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 11:45:35 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2580d1ac] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [2580d1ac] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2580d1ac] Finished in 0.213 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-youpix-production-diogo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-youpix-production-diogo.sh 100.0%
+  INFO [d2aed8cb] Running /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [d2aed8cb] Command: /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh
+  INFO [d2aed8cb] Finished in 0.059 seconds with exit status 0 (successful).
+  INFO [78763dbb] Running /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [78763dbb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD )
+ DEBUG [78763dbb] 	77bd920d33f44ead7e45d266261eceb6de61275f	HEAD
+  INFO [78763dbb] Finished in 1.187 seconds with exit status 0 (successful).
+  INFO [9474e086] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [9474e086] Command: /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases
+  INFO [9474e086] Finished in 0.030 seconds with exit status 0 (successful).
+ DEBUG [0ba99e64] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [0ba99e64] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ]
+ DEBUG [0ba99e64] Finished in 0.063 seconds with exit status 1 (failed).
+ DEBUG [83d0f489] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [83d0f489] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ]
+ DEBUG [83d0f489] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/cld2_1/cld2-1.mycpnv.ch/repo
+ DEBUG [e562cb53] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [e562cb53] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [e562cb53] Finished in 0.020 seconds with exit status 0 (successful).
+  INFO [eb1d5c50] Running /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [eb1d5c50] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git )
+  INFO [eb1d5c50] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [47f61d63] Running /usr/bin/env git remote update --prune as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [47f61d63] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [47f61d63] 	Fetching origin
+  INFO [47f61d63] Finished in 1.232 seconds with exit status 0 (successful).
+ DEBUG [3bad199d] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [3bad199d] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [3bad199d] Finished in 0.022 seconds with exit status 0 (successful).
+  INFO [d3f53380] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104543 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [d3f53380] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104543 )
+  INFO [d3f53380] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [a7faf3f0] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104543 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [a7faf3f0] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104543 )
+ DEBUG [a7faf3f0] 	fatal: Not a valid object name
+ DEBUG [a7faf3f0] 	tar: This does not look like a tar archive
+ DEBUG [a7faf3f0] 	tar: Exiting with failure status due to previous errors
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 11:46:53 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7bad8ec7] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [7bad8ec7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7bad8ec7] Finished in 0.234 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-youpix-production-diogo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-youpix-production-diogo.sh 100.0%
+  INFO [74e0ce9f] Running /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [74e0ce9f] Command: /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh
+  INFO [74e0ce9f] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [211882f0] Running /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [211882f0] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD )
+ DEBUG [211882f0] 	77bd920d33f44ead7e45d266261eceb6de61275f	HEAD
+  INFO [211882f0] Finished in 1.180 seconds with exit status 0 (successful).
+  INFO [5024ed05] Running /usr/bin/env mkdir -p ~/cld2-1.mycpnv.ch/shared ~/cld2-1.mycpnv.ch/releases as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [5024ed05] Command: /usr/bin/env mkdir -p ~/cld2-1.mycpnv.ch/shared ~/cld2-1.mycpnv.ch/releases
+  INFO [5024ed05] Finished in 0.021 seconds with exit status 0 (successful).
+ DEBUG [fd6029f1] Running [ -f ~/cld2-1.mycpnv.ch/current/REVISION ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [fd6029f1] Command: [ -f ~/cld2-1.mycpnv.ch/current/REVISION ]
+ DEBUG [fd6029f1] Finished in 0.061 seconds with exit status 1 (failed).
+ DEBUG [e376feaf] Running [ -f ~/cld2-1.mycpnv.ch/repo/HEAD ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [e376feaf] Command: [ -f ~/cld2-1.mycpnv.ch/repo/HEAD ]
+ DEBUG [e376feaf] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO The repository mirror is at ~/cld2-1.mycpnv.ch/repo
+ DEBUG [3080ac9f] Running if test ! -d ~/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '~/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [3080ac9f] Command: if test ! -d ~/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '~/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [3080ac9f] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [867252ce] Running /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [867252ce] Command: cd ~/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git )
+  INFO [867252ce] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [7de7484e] Running /usr/bin/env git remote update --prune as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [7de7484e] Command: cd ~/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [7de7484e] 	Fetching origin
+  INFO [7de7484e] Finished in 1.189 seconds with exit status 0 (successful).
+ DEBUG [9972df23] Running if test ! -d ~/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '~/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [9972df23] Command: if test ! -d ~/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '~/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [9972df23] Finished in 0.025 seconds with exit status 0 (successful).
+  INFO [f718a392] Running /usr/bin/env mkdir -p ~/cld2-1.mycpnv.ch/releases/20200310104700 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [f718a392] Command: cd ~/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env mkdir -p ~/cld2-1.mycpnv.ch/releases/20200310104700 )
+  INFO [f718a392] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO [34b9e056] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C ~/cld2-1.mycpnv.ch/releases/20200310104700 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [34b9e056] Command: cd ~/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C ~/cld2-1.mycpnv.ch/releases/20200310104700 )
+ DEBUG [34b9e056] 	fatal: Not a valid object name
+ DEBUG [34b9e056] 	tar: This does not look like a tar archive
+tar: Exiting with failure status due to previous errors
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 11:47:56 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7bd055d7] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [7bd055d7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7bd055d7] Finished in 0.212 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-youpix-production-diogo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-youpix-production-diogo.sh 100.0%
+  INFO [6b32c94a] Running /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [6b32c94a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh
+  INFO [6b32c94a] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [f2f55c60] Running /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [f2f55c60] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD )
+ DEBUG [f2f55c60] 	77bd920d33f44ead7e45d266261eceb6de61275f	HEAD
+  INFO [f2f55c60] Finished in 1.290 seconds with exit status 0 (successful).
+  INFO [ae2a2ef3] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [ae2a2ef3] Command: /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases
+  INFO [ae2a2ef3] Finished in 0.238 seconds with exit status 0 (successful).
+ DEBUG [8da63990] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [8da63990] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ]
+ DEBUG [8da63990] Finished in 0.059 seconds with exit status 1 (failed).
+ DEBUG [5b670cfb] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [5b670cfb] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ]
+ DEBUG [5b670cfb] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/cld2_1/cld2-1.mycpnv.ch/repo
+ DEBUG [b088d0d3] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [b088d0d3] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [b088d0d3] Finished in 0.019 seconds with exit status 0 (successful).
+  INFO [f4ce5a2d] Running /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [f4ce5a2d] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git )
+  INFO [f4ce5a2d] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [8a3854fa] Running /usr/bin/env git remote update --prune as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [8a3854fa] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8a3854fa] 	Fetching origin
+  INFO [8a3854fa] Finished in 1.234 seconds with exit status 0 (successful).
+ DEBUG [8bb297c0] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [8bb297c0] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [8bb297c0] Finished in 0.019 seconds with exit status 0 (successful).
+  INFO [d1adec04] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104804 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [d1adec04] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104804 )
+  INFO [d1adec04] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [8c757520] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104804 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [8c757520] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104804 )
+ DEBUG [8c757520] 	fatal: Not a valid object name
+ DEBUG [8c757520] 	tar: This does not look like a tar archive
+ DEBUG [8c757520] 	tar: Exiting with failure status due to previous errors
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 11:49:10 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [994d7c26] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [994d7c26] Command: /usr/bin/env mkdir -p /tmp
+  INFO [994d7c26] Finished in 0.208 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-youpix-production-diogo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-youpix-production-diogo.sh 100.0%
+  INFO [e321a268] Running /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [e321a268] Command: /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh
+  INFO [e321a268] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [f82edfb2] Running /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [f82edfb2] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD )
+ DEBUG [f82edfb2] 	77bd920d33f44ead7e45d266261eceb6de61275f	HEAD
+  INFO [f82edfb2] Finished in 1.179 seconds with exit status 0 (successful).
+  INFO [45f9fcf8] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [45f9fcf8] Command: /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases
+  INFO [45f9fcf8] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG [7afac434] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [7afac434] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ]
+ DEBUG [7afac434] Finished in 0.064 seconds with exit status 1 (failed).
+ DEBUG [3c5a8907] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [3c5a8907] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ]
+ DEBUG [3c5a8907] Finished in 0.060 seconds with exit status 1 (failed).
+ DEBUG [d38ff70a] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [d38ff70a] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch'" 1>&2; false; fi
+ DEBUG [d38ff70a] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO [75a9eb31] Running /usr/bin/env git clone --mirror git@github.com:nicolas-maitre/youpix.git /home/cld2_1/cld2-1.mycpnv.ch/repo as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [75a9eb31] Command: cd /home/cld2_1/cld2-1.mycpnv.ch && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git clone --mirror git@github.com:nicolas-maitre/youpix.git /home/cld2_1/cld2-1.mycpnv.ch/repo )
+ DEBUG [75a9eb31] 	warning: templates not found /usr/share/git-core/templates
+ DEBUG [75a9eb31] 	Initialized empty Git repository in /home/cld2_1/cld2-1.mycpnv.ch/repo/
+  INFO [75a9eb31] Finished in 1.557 seconds with exit status 0 (successful).
+ DEBUG [d1c8dfe7] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [d1c8dfe7] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [d1c8dfe7] Finished in 0.019 seconds with exit status 0 (successful).
+  INFO [558b8850] Running /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [558b8850] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git )
+  INFO [558b8850] Finished in 0.062 seconds with exit status 0 (successful).
+  INFO [c3c19ba3] Running /usr/bin/env git remote update --prune as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [c3c19ba3] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [c3c19ba3] 	Fetching origin
+  INFO [c3c19ba3] Finished in 1.170 seconds with exit status 0 (successful).
+ DEBUG [c873b234] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [c873b234] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [c873b234] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [a0557d4a] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104917 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [a0557d4a] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104917 )
+  INFO [a0557d4a] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO [adfce46e] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104917 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [adfce46e] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310104917 )
+ DEBUG [adfce46e] 	fatal: Not a valid object name
+ DEBUG [adfce46e] 	tar: This does not look like a tar archive
+tar: 
+ DEBUG [adfce46e] 	Exiting with failure status due to previous errors
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-03-10 12:02:41 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [65b71488] Running /usr/bin/env mkdir -p /tmp as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [65b71488] Command: /usr/bin/env mkdir -p /tmp
+  INFO [65b71488] Finished in 0.262 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-youpix-production-diogo.sh 0.0%
+  INFO Uploading /tmp/git-ssh-youpix-production-diogo.sh 100.0%
+  INFO [59c2d879] Running /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [59c2d879] Command: /usr/bin/env chmod 700 /tmp/git-ssh-youpix-production-diogo.sh
+  INFO [59c2d879] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [632cf59a] Running /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [632cf59a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git ls-remote git@github.com:nicolas-maitre/youpix.git HEAD )
+ DEBUG [632cf59a] 	77bd920d33f44ead7e45d266261eceb6de61275f	HEAD
+  INFO [632cf59a] Finished in 1.241 seconds with exit status 0 (successful).
+  INFO [942ca1a5] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [942ca1a5] Command: /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/shared /home/cld2_1/cld2-1.mycpnv.ch/releases
+  INFO [942ca1a5] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [0fa4ae93] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [0fa4ae93] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/current/REVISION ]
+ DEBUG [0fa4ae93] Finished in 0.067 seconds with exit status 1 (failed).
+ DEBUG [25a62c54] Running [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ] as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [25a62c54] Command: [ -f /home/cld2_1/cld2-1.mycpnv.ch/repo/HEAD ]
+ DEBUG [25a62c54] Finished in 0.066 seconds with exit status 1 (failed).
+ DEBUG [6c0c42dd] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [6c0c42dd] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch'" 1>&2; false; fi
+ DEBUG [6c0c42dd] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [6e4d12fd] Running /usr/bin/env git clone --mirror git@github.com:nicolas-maitre/youpix.git /home/cld2_1/cld2-1.mycpnv.ch/repo as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [6e4d12fd] Command: cd /home/cld2_1/cld2-1.mycpnv.ch && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git clone --mirror git@github.com:nicolas-maitre/youpix.git /home/cld2_1/cld2-1.mycpnv.ch/repo )
+ DEBUG [6e4d12fd] 	warning: templates not found /usr/share/git-core/templates
+ DEBUG [6e4d12fd] 	Initialized empty Git repository in /home/cld2_1/cld2-1.mycpnv.ch/repo/
+  INFO [6e4d12fd] Finished in 1.609 seconds with exit status 0 (successful).
+ DEBUG [9bca68fb] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [9bca68fb] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [9bca68fb] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [23bddaa5] Running /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [23bddaa5] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote set-url origin git@github.com:nicolas-maitre/youpix.git )
+  INFO [23bddaa5] Finished in 0.082 seconds with exit status 0 (successful).
+  INFO [d2804815] Running /usr/bin/env git remote update --prune as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [d2804815] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [d2804815] 	Fetching origin
+  INFO [d2804815] Finished in 1.264 seconds with exit status 0 (successful).
+ DEBUG [26bdaf3a] Running if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [26bdaf3a] Command: if test ! -d /home/cld2_1/cld2-1.mycpnv.ch/repo; then echo "Directory does not exist '/home/cld2_1/cld2-1.mycpnv.ch/repo'" 1>&2; false; fi
+ DEBUG [26bdaf3a] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO [1899a6a2] Running /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310110249 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [1899a6a2] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env mkdir -p /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310110249 )
+  INFO [1899a6a2] Finished in 0.083 seconds with exit status 0 (successful).
+  INFO [3b530910] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310110249 as cld2_1@cld2-1.mycpnv.ch
+ DEBUG [3b530910] Command: cd /home/cld2_1/cld2-1.mycpnv.ch/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-youpix-production-diogo.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /home/cld2_1/cld2-1.mycpnv.ch/releases/20200310110249 )
+ DEBUG [3b530910] 	fatal: Not a valid object name
+ DEBUG [3b530910] 	tar: This does not look like a tar archive
+tar: Exiting with failure status due to previous errors
